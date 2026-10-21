@@ -5,7 +5,7 @@ window.CONFIG_TIENDA = {
 
   // WhatsApp de la tienda: código de país + número, solo dígitos, sin + ni espacios.
   // Paraguay: 595 y el celular sin el 0. Ejemplo: "595981123456"
-  whatsapp: "",
+  whatsapp: "595976282637",
 
   moneda: "Gs.",
 
