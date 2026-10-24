@@ -15,6 +15,11 @@ window.CONFIG_TIENDA = {
   // Mientras esté vacío, la página muestra productos de ejemplo.
   hojaCSV: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQRXOqISr9gy1e6FkkQsfS_t418rEvFNPt0DNWwuCuJxlTMvNfUwg_eIk9lD9a55atrg1UDhwiEUw2l/pub?gid=1591856898&single=true&output=csv",
 
+  // OPCIONAL: enlace CSV de una segunda pestaña "categorias" (columnas: nombre, foto)
+  // para cambiar las imágenes de las categorías desde Google Sheets. Si lo dejás vacío,
+  // se usan las imágenes de la carpeta fotos/categorias/ (gatitos.png, kirby.png, etc.).
+  categoriasCSV: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQRXOqISr9gy1e6FkkQsfS_t418rEvFNPt0DNWwuCuJxlTMvNfUwg_eIk9lD9a55atrg1UDhwiEUw2l/pub?gid=766617505&single=true&output=csv"
+    
   // Imagen grande de cada categoría en la página principal (opcional).
   // Si no ponés una, se usa la foto del primer producto de esa categoría.
   // Escribí el nombre de la categoría tal cual está en la hoja y el nombre
